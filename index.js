@@ -1,28 +1,28 @@
 const barBtnTraSua = document.getElementById("btn-bar-tra-sua")
+const listBarTraSua=document.getElementById("list-bar-tra-sua")
 
 barBtnTraSua.addEventListener("click", function () {
-    barBtnTraSua.innerHTML = "✕"
 
-    const ul = document.createElement("ul")
+    barBtnTraSua.innerHTML = "✕"
     
-    const aboutUS = document.createElement("li")
+    const aboutUS = document.createElement("div")
     aboutUS.innerHTML = "About US"
-    const theDrinks = document.createElement("li")
+    const theDrinks = document.createElement("div")
     theDrinks.innerHTML = "The Drinks"
-    const theFoods = document.createElement("li")
+    const theFoods = document.createElement("div")
     theFoods.innerHTML = "The Foods"
-    const gio = document.createElement("li")
+    const gio = document.createElement("div")
     gio.innerHTML = "Giỏ"
-    const tinTuc = document.createElement("li")
+    const tinTuc = document.createElement("div")
     tinTuc.innerHTML = "Tin tức"
-    const contactUS = document.createElement("li")
+    const contactUS = document.createElement("div")
     contactUS.innerHTML = "Contact US"
 
-    ul.appendChild(aboutUS)
-    ul.appendChild(theDrinks)
-    ul.appendChild(theFoods)
-    ul.appendChild(gio)
-    ul.appendChild(tinTuc)
-    ul.appendChild(contactUS)
+    listBarTraSua.appendChild(aboutUS)
+    listBarTraSua.appendChild(theDrinks)
+    listBarTraSua.appendChild(theFoods)
+    listBarTraSua.appendChild(gio)
+    listBarTraSua.appendChild(tinTuc)
+    listBarTraSua.appendChild(contactUS)
 
 })
