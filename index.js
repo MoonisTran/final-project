@@ -5,17 +5,17 @@ barBtnTraSua.addEventListener("click", function () {
 
     barBtnTraSua.innerHTML = "✕"
     
-    const aboutUS = document.createElement("div")
+    const aboutUS = document.createElement("span")
     aboutUS.innerHTML = "About US"
-    const theDrinks = document.createElement("div")
+    const theDrinks = document.createElement("span")
     theDrinks.innerHTML = "The Drinks"
-    const theFoods = document.createElement("div")
+    const theFoods = document.createElement("span")
     theFoods.innerHTML = "The Foods"
-    const gio = document.createElement("div")
+    const gio = document.createElement("span")
     gio.innerHTML = "Giỏ"
-    const tinTuc = document.createElement("div")
+    const tinTuc = document.createElement("span")
     tinTuc.innerHTML = "Tin tức"
-    const contactUS = document.createElement("div")
+    const contactUS = document.createElement("span")
     contactUS.innerHTML = "Contact US"
 
     listBarTraSua.appendChild(aboutUS)

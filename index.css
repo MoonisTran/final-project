@@ -1,4 +1,21 @@
 #btn-bar-tra-sua{
     border-radius: 50%;
     font-size: 25px;
+    background-color:aqua;
+    float:right;
+     
+}
+#list-bar-tra-sua{
+    background-color:rgb(0, 255, 221);
+    display: grid;
+    grid-template-columns:auto ;
+    font-size: 20px; 
+    width: 30%;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+}
+#bar-tra-sua{
+    position:sticky;
+    top: 0;
 }
