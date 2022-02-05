@@ -13,8 +13,8 @@ const listBarTraSua = document.getElementById("list-bar-tra-sua")
         theFoods.innerHTML = "The Foods"
         const gio = document.createElement("span")
         gio.innerHTML = "Giỏ"
-        const tinTuc = document.createElement("span")
-        tinTuc.innerHTML = "Tin tức"
+        const tuyenDung = document.createElement("span")
+        tuyenDung.innerHTML = "Tuyển dụng"
         const contactUS = document.createElement("span")
         contactUS.innerHTML = "Contact US"
 
@@ -22,12 +22,13 @@ const listBarTraSua = document.getElementById("list-bar-tra-sua")
         listBarTraSua.appendChild(theDrinks)
         listBarTraSua.appendChild(theFoods)
         listBarTraSua.appendChild(gio)
-        listBarTraSua.appendChild(tinTuc)
+        listBarTraSua.appendChild(tuyenDung)
         listBarTraSua.appendChild(contactUS)
         
         barBtnTraSua.addEventListener("click", function () {
             barBtnTraSua.innerHTML = "☰"
             listBarTraSua.innerHTML=""
+            
         })
     })
 
