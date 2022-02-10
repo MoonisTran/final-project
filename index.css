@@ -1,101 +1,81 @@
-#btn-bar-tra-sua{
-    border-radius: 50%;
-    font-size: 25px;
-    background-color:aqua;
-    float:right;
-     
+#topMain{
+  position: sticky;
+  top: 0; 
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-#list-bar-tra-sua{
-    background-color:rgb(0, 255, 221);
-    display: grid;
-    grid-template-columns:auto ;
-    font-size: 20px; 
-    width: 30%;
-    float: right;
-    text-align: center;
-    font-weight: bold;
+.barTop {
+  display: grid;
+  grid-template-columns:20% 10% 10% 10% 10% 10% 10% 20% ;
 }
-#bar-tra-sua{
-    position:sticky;
-    top: 0;
+.logoBar{
+  width:50%;
 }
-.img-tuyen-dung{
-    width: 15px;
+.textBar{
+  font-weight: bold;
+  font-size:25px;
+  padding-top: 20px;
 }
 
-main {
-    width:100%;
-  }
-  h1, h2, h3 {
-    margin: 0 0 0.35em;
-    font-weight: bold;
-  }
-  h1 {
-    background-color:rgb(46, 53, 37);
-    font-size:40px;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align:center;
-  }
-  h2 {
-    font-size: 30px;
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
-  h3 {
-    font-size: 20px;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fixed{
+  position:fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+#botEnd{
+  display: grid;
+  grid-template-columns:15% 15% 70%;
+  margin-bottom: 5px;
+}
+.phanDauEnd{
+  background-color: #544946;
+  padding: 20px 10px 20px 0;
+}
+.imgEnd{
+  max-width: 20%;
+  height: auto;
   
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300;
-    height: 300;
-  }
-  .container {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 24px;
-  }
-  .body {
-    margin-left:60px;
-  }
-  .card-row {
-    display: grid;
-    grid-template-columns:max-content max-content max-content;
-    grid-template-rows:auto auto auto;
-    grid-gap:30px;
-  }
-  .card {
-    padding: 20px;
-    border: 1px solid #c9c9c9;
-    border-radius: 7px;
-    box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
-    max-width: 400px;
-    max-height: 450px;
-    display: block;
-  }
-  .card h3 em {
-    padding: 0.25em;
-    background-color: #d4c686;
-    border-radius: 4px;
-  }
-  .card h3 {
-    color: rgb(112, 119, 93);
-    align-items: start;
-  }
-  .button {
-    text-decoration: none;
-    background-color: rgb(192, 135, 11);
-    color: #fff;
-    padding: 0.5em 1em;
-    border-radius: 4px;
-    display: inline-block; }
+}
+.textEnd{
+  padding-top: 30px;
+  font-weight: bold;
+}
+.phanHaiEnd{
+  background-color:#f1f2f2;
+  display: grid;
+  grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+  text-align: center;
+  padding: 20px 10px 20px 0;
+}
+.color{
+  background-color:#544946;
+}
