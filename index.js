@@ -33,3 +33,15 @@ const listBarTraSua = document.getElementById("list-bar-tra-sua")
     })
 
 
+    jQuery(document).ready(function () {
+        jQuery("#iconChat").click(function () {
+            jQuery('#option').toggle();
+        });
+        jQuery("#iconChat").click(function (e) {
+            e.stopPropagation();
+        });
+     
+        jQuery(document).click(function () {
+            jQuery("#option").hide();
+        });
+    });
