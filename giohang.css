@@ -1,0 +1,104 @@
+#topMain{
+    position: sticky;
+    top: 0; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .barTop {
+    display: grid;
+    grid-template-columns:20% 10% 10% 10% 10% 10% 10% 20% ;
+  }
+  .logoBar{
+    width:50%;
+  }
+  .textBar{
+    font-weight: bold;
+    font-size:25px;
+    padding-top: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .thongTinDatHang{
+    display: grid;
+    grid-template-columns:50% 50%;
+  }
+  .thongTinNguoiNhan{
+    text-align: center;
+  }
+  
+  #gioHang{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  input{
+    width: 60%; height: 30px;
+  }
+  textarea{
+    width: 100%;
+  }
+  .size20px{
+    font-size:20px;
+  
+  }
+  .bold{
+    font-weight: bold;
+  }
+  .datHang{
+    background-color: rgb(214, 116, 116);
+    width: 100px;
+    height: 100px;
+    margin-left:70%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #fixed{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+  }
+  #botEnd{
+    display: grid;
+    grid-template-columns:15% 15% 70%;
+    margin-bottom: 5px;
+  }
+  .phanDauEnd{
+    background-color: #544946;
+    padding: 20px 10px 20px 0;
+  }
+  .imgEnd{
+    max-width: 20%;
+    height: auto;
+    
+  }
+  .textEnd{
+    padding-top: 30px;
+    font-weight: bold;
+  }
+  .phanHaiEnd{
+    background-color:#f1f2f2;
+    display: grid;
+    grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+    text-align: center;
+    padding: 20px 10px 20px 0;
+  }
+  .color{
+    background-color:#544946;
+  }
