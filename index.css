@@ -379,3 +379,95 @@ img {
 #option li a i.fa-eye {
     background: #FF643A;
 }
+
+.registratior_custom {
+  width: 100%;
+  /* padding-top: 50px; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.6);
+  position: fixed;
+  top: 0;
+  z-index: 999999999999999999999999;
+  /* display: none; */
+}
+.registratior_custom form {
+  width: 50%;
+  position: relative;
+  margin: auto;
+  padding-left: 20%;
+  background: url(https://scontent.fsgn8-2.fna.fbcdn.net/v/t39.30808-6/p235x350/273748272_3211129175774689_900424190237435274_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=38_QbV7XSBcAX_CbUUA&tn=SHv7Oc6MxjkVZ2B0&_nc_ht=scontent.fsgn8-2.fna&oh=00_AT9h-A60a87vdtZ8mcfwUw-1XkCvH2cGupuCHImadNH8Fw&oe=620B6B78)
+    no-repeat center/cover;
+  width: 832px;
+  height: 680px;
+}
+.registratior_custom form .content {
+  background-color: rgba(245, 247, 246, 0.87);
+  padding: 20px 20px 0px 20px;
+  margin-top: 490px;
+  margin-left: 200px;
+}
+.registratior_custom form .content h3 {
+  font-size: 24px;
+  margin: 0px 0px 10px;
+  font-weight: 500;
+}
+.registratior_custom form .content p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.registratior_custom form .content .x-close {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  padding: 2px 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+.registratior_custom form .content ul {
+  margin: initial;
+  padding: initial;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.registratior_custom form .content input {
+  margin: initial;
+  padding: initial;
+  display: block;
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+}
+.registratior_custom form .content button {
+  margin: initial;
+  padding: initial;
+  display: block;
+  width: 100%;
+  outline: none;
+  margin-top: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #000 !important;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.registratior_custom form .content button:hover {
+  background-color: #fff !important;
+  transition: step-end 0.2s;
+  border: 1px solid #e7e7e7;
+}
+.registratior_custom form .content button:hover p {
+  color: #e5f5f1 !important;
+  transition: step-end 0.2s;
+}
+.registratior_custom form .content button p {
+  margin: initial;
+  padding: initial;
+  font-weight: 600 !important;
+}
