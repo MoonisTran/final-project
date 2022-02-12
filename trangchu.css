@@ -24,44 +24,6 @@
   margin-left:20% ;
   margin-right:20% ;
 }
-
-main {
-  width:100%;
-}
-h1, h2, h3 {
-  margin: 0 0 0.35em;
-  font-weight: bold;
-}
-h1 {
-  background-color:rgb(46, 53, 37);
-  font-size:40px;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  text-align:center;
-}
-h2 {
-  font-size: 30px;
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-h3 {
-  font-size: 20px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300;
-  height: 300;
-}
-
 .button {
   text-decoration: none;
   background-color: rgb(192, 135, 11);
@@ -84,7 +46,7 @@ img {
   margin-bottom: 5px;
 }
 .phanDauEnd{
-  background-color: #544946;
+  background-color: #275466;
   padding: 20px 10px 20px 0;
 }
 .imgEnd{
@@ -104,7 +66,7 @@ img {
   padding: 20px 10px 20px 0;
 }
 .color{
-  background-color:#544946;
+  background-color: #275466;
 }
 
 
