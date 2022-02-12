@@ -16,7 +16,7 @@
   .textBar{
     font-weight: bold;
     font-size:25px;
-    padding-top: 20px;
+    padding-top: 40px;
   }
   
   
@@ -81,7 +81,7 @@
     margin-bottom: 5px;
   }
   .phanDauEnd{
-    background-color: #275466;
+    background-color: #5dabca;
     padding: 20px 10px 20px 0;
   }
   .imgEnd{
@@ -101,7 +101,7 @@
     padding: 20px 10px 20px 0;
   }
   .color{
-    background-color: #275466;
+    background-color: #5dabca;
   }
   
   
