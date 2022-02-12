@@ -380,7 +380,7 @@ img {
     background: #FF643A;
 }
 
-.registratior_custom {
+#registratior_custom {
   width: 100%;
   /* padding-top: 50px; */
   height: 100vh;
@@ -393,7 +393,7 @@ img {
   z-index: 999999999999999999999999;
   /* display: none; */
 }
-.registratior_custom form {
+#registratior_custom form {
   width: 50%;
   position: relative;
   margin: auto;
@@ -403,22 +403,22 @@ img {
   width: 832px;
   height: 680px;
 }
-.registratior_custom form .content {
+#registratior_custom form .content {
   background-color: rgba(245, 247, 246, 0.87);
   padding: 20px 20px 0px 20px;
   margin-top: 490px;
   margin-left: 200px;
 }
-.registratior_custom form .content h3 {
+#registratior_custom form .content h3 {
   font-size: 24px;
   margin: 0px 0px 10px;
   font-weight: 500;
 }
-.registratior_custom form .content p {
+#registratior_custom form .content p {
   font-size: 14px;
   margin-bottom: 5px;
 }
-.registratior_custom form .content .x-close {
+#registratior_custom form .content #x-close {
   position: absolute;
   top: 14px;
   right: 10px;
@@ -428,14 +428,14 @@ img {
   font-size: 24px;
   cursor: pointer;
 }
-.registratior_custom form .content ul {
+#registratior_custom form .content ul {
   margin: initial;
   padding: initial;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-.registratior_custom form .content input {
+#registratior_custom form .content input {
   margin: initial;
   padding: initial;
   display: block;
@@ -444,7 +444,7 @@ img {
   border: none;
   padding: 10px 20px;
 }
-.registratior_custom form .content button {
+#registratior_custom form .content button {
   margin: initial;
   padding: initial;
   display: block;
@@ -457,17 +457,18 @@ img {
   color: #fff;
   margin-bottom: 60px;
 }
-.registratior_custom form .content button:hover {
+#registratior_custom form .content button:hover {
   background-color: #fff !important;
   transition: step-end 0.2s;
   border: 1px solid #e7e7e7;
 }
-.registratior_custom form .content button:hover p {
+#registratior_custom form .content button:hover p {
   color: #e5f5f1 !important;
   transition: step-end 0.2s;
 }
-.registratior_custom form .content button p {
+#registratior_custom form .content button p {
   margin: initial;
   padding: initial;
   font-weight: 600 !important;
+ 
 }

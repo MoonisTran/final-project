@@ -42,5 +42,12 @@ $(document).ready(function () {
     });
 });
 
-sddddddddddddddddddddddddddd
-j
+function change_displayMid()
+            {
+               document.getElementById("sl1").style.display = "none";
+            }
+
+function change_displayEnd()
+            {
+               document.getElementById("registratior_custom").style.display = "none";
+            }
