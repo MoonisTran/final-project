@@ -9,6 +9,8 @@
   .barTop {
     display: grid;
     grid-template-columns:20% 10% 10% 10% 10% 10% 10% 20% ;
+    color: rgb(39, 161, 161);
+    background: url(https://tse2.mm.bing.net/th?id=OIP.ERdVAZEos975_yh18JCjigHaEK&pid=Api&P=0&w=302&h=170);
   }
   .logoBar{
     width:50%;

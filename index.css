@@ -1,12 +1,16 @@
 #topMain{
   position: sticky;
   top: 0; 
-  padding-top: 10px;
+
   padding-bottom: 10px;
+
+
 }
 .barTop {
   display: grid;
   grid-template-columns:20% 10% 10% 10% 10% 10% 10% 20% ;
+  color: rgb(39, 161, 161);
+  background: url(https://tse2.mm.bing.net/th?id=OIP.ERdVAZEos975_yh18JCjigHaEK&pid=Api&P=0&w=302&h=170);
 }
 .logoBar{
   width:50%;
@@ -16,7 +20,10 @@
   font-size:25px;
   padding-top: 20px;
 }
-
+#mainMid{
+  margin-left:20% ;
+  margin-right:20% ;
+}
 
 main {
   width:100%;
@@ -54,39 +61,7 @@ img {
   width: 300;
   height: 300;
 }
-.container {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px;
-}
-.body {
-  margin-left:60px;
-}
-.card-row {
-  display: grid;
-  grid-template-columns:max-content max-content max-content;
-  grid-template-rows:auto auto auto;
-  grid-gap:30px;
-}
-.card {
-  padding: 20px;
-  border: 1px solid #c9c9c9;
-  border-radius: 7px;
-  box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
-  max-width: 400px;
-  max-height: 450px;
-  display: block;
-}
-.card h3 em {
-  padding: 0.25em;
-  background-color: #d4c686;
-  border-radius: 4px;
-}
-.card h3 {
-  color: rgb(112, 119, 93);
-  align-items: start;
-}
+
 .button {
   text-decoration: none;
   background-color: rgb(192, 135, 11);
@@ -94,31 +69,6 @@ img {
   padding: 0.5em 1em;
   border-radius: 4px;
   display: inline-block; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #fixed{
   position:fixed;
   bottom: 0;
@@ -194,19 +144,12 @@ img {
   width: 300;
   height: 300;
 }
-.container {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px;
-}
-.body {
-  margin-left:60px;
-}
+
+
 .card-row {
   display: grid;
-  grid-template-columns:max-content max-content max-content;
-  grid-template-rows:auto auto auto;
+  grid-template-columns: max-content  max-content max-content;
+  grid-template-rows:auto  auto auto;
   grid-gap:30px;
 }
 .card {
@@ -214,7 +157,7 @@ img {
   border: 1px solid #c9c9c9;
   border-radius: 7px;
   box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
-  max-width: 400px;
+  max-width: 299px;
   max-height: 450px;
   display: block;
 }
@@ -471,4 +414,12 @@ img {
   padding: initial;
   font-weight: 600 !important;
  
+}
+.sl1{
+  top: 310px;
+  position: fixed; 
+  left: 86%;
+  margin-right: 10px; 
+
+  
 }
