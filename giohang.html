@@ -39,7 +39,33 @@
   <h1 class="gioHang">Giỏ Hàng</h1>
   <div id="gioHang">
     <hr>
-    <p id="traSua">Bạn chưa đặt trà sữa 🙁 ? Tìm cho mình và bạn bè một cốc trà sữa</p>
+    <div id="hangDaDat">
+      <div>
+        <img
+          src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070418032694/photo/71c400f667e548f98ef88bf0df39cba4_1589536295474185621.jpg"
+          style="width: 100%; height:70%;" />
+      </div>
+      <div>
+        <span style="font-weight: bold;font-size: 25px;">Trà sữa trân châu hoàng kim </span>
+        <br><br>
+        <span style="color:rgb(12, 52, 161);font-size: 25px;">105,000 ₫ </span>
+        <br><br>
+        <hr>
+        <span style="font-size: 25px;">Số lượng 1</span>
+        <br><br>
+        <hr>
+        <span style="font-size: 25px;">Kích thước vừa</span>
+        <br><br>
+        <hr>
+        <span style="font-size: 25px;">Tỷ lệ đá 29%</span>
+        <br><br>
+        <hr>
+        <span style="font-size: 25px;">Tỷ lệ đường 30%</span>
+        <br><br>
+        <hr>
+        <span style="font-size: 25px;">Topping : Đào ngâm + Trân châu trắng </span>
+      </div>
+    </div>
     <hr>
     <h2>Thông tin đặt hàng</h2>
     <div class="thongTinDatHang">
@@ -59,8 +85,16 @@
           <input id="email" type="email" required>
         </div>
         <div>
-          <label class="size20px bold" for="chonCuaHang"> Chọn cửa hàng</label><br />
-          <input id="chonCuaHang" required>
+          <label class="size20px bold" for="chonCuaHang"> Chọn cửa hàng
+            <br>
+            <select id="mySelect" style=" width: 350px;text-align: center;height: 40px;font-size: 15px;">
+              <option>C4E Hà Nội</option>
+              <option>C4E Tphcm</option>
+              <option>C4E Cà Mau</option>
+              <option>C4E Bình Dương</option>
+            </select>
+          </label><br />
+
         </div>
       </div>
       <div class="diaChiDatHang">
