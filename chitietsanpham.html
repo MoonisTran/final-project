@@ -13,113 +13,176 @@
   <div id="topMain">
 
     <div class="barTop">
-        <span>
+      <span>
 
-        </span>
+      </span>
 
-        <span><img class="logoBar"
-                src="images/logo.png">
-        </span>
+      <a><img class="logoBar" src="images/logo.png">
+      </a>
 
-        <span class="textBar" id="trangChu"> Trang chủ </span>
+      <a class="textBar" id="trangChu" href="http://127.0.0.1:5500/trangchu.html"> Trang chủ </a>
 
-        <span class="textBar" id="sanPham"> Sản phẩm </span>
+      <a class="textBar" id="sanPham" href="http://127.0.0.1:5500/sanpham.html"> Sản phẩm </a>
 
-        <span class="textBar" id="gioHang"> Giỏ hàng </span>
+      <a class="textBar" id="gioHang" href="http://127.0.0.1:5500/giohang.html"> Giỏ hàng </a>
 
+      <a class="textBar" id="lienHe" href="http://127.0.0.1:5500/lienhe.html"> Liên hệ </a>
 
+      <span>
 
-        <span class="textBar" id="lienHe"> Liên hệ </span>
-
-        <span>
-
-        </span>
+      </span>
     </div>
 
-</div>
+  </div>
 
+  <div id="mainMid">
 
+    <div>
+      <img
+        src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070418032694/photo/71c400f667e548f98ef88bf0df39cba4_1589536295474185621.jpg" style="width: 100%; height:70%;"/>
+    <br><button style="width:200px;height: 100px;text-align: center;margin-left: 30%;background-color: lightblue;">Xác nhận </button>
+      </div>
 
+    <div>
+      <span style="font-weight: bold;font-size: 25px;">Trà sữa trân châu hoàng kim </span>
+      <br><br>
+      <span style="color:rgb(12, 52, 161);font-size: 25px;">70,000 ₫ </span>
+      <br>
+        <input type="number" style="width: 100px;" placeholder="Số lượng">
+        <br>
+      <hr>
+      <span>Kích thước</span>
+      <br>
+      <form>
+        <select id="mySelect">
+          <option>Nhỏ</option>
+          <option>Vừa + 5.000đ</option>
+          <option>To + 10.000đ</option>
+        </select>
+      </form>
+      <hr>
+      <span>Tỷ lệ đá</span>
+      <form oninput="x.value=parseInt(a.value)">
+        <input type="range" id="a" value="0">
 
+        =<output name="x" for="a"></output>%
+      </form>
+      <br>
+      <hr>
+      <span>Tỷ lệ đường</span>
+      <form oninput="x.value=parseInt(a.value)">
+        <input type="range" id="a" value="0">
 
+        =<output name="x" for="a"></output>%
+      </form>
+      <br>
+      <hr>
+      <span>Topping</span>
+      <br>
+      <form action="/action_page.php">
+        <input type="checkbox" id="daoNgam" name="Topping">
+        <label for="daoNgam">Đào ngâm + 10.000đ</label><br>
 
+        <input type="checkbox" id="tranChauTrang" name="Topping">
+        <label for="tranChauTrang">Trân châu trắng + 10.000đ</label><br>
 
+        <input type="checkbox" id="tranChauDen" name="Topping">
+        <label for="tranChauDen">Trân châu đen + 10.000đ</label><br>
 
+        <input type="checkbox" id="foamCheese" name="Topping">
+        <label for="foamCheese">FoamCheese + 10.000đ</label><br>
 
+        <input type="checkbox" id="tranChauHoangKim" name="Topping">
+        <label for="tranChauHoangKim">Trân châu hoàng kim + 10.000đ</label><br>
 
-
-
-
-    <div id="support">
-      <div id="iconChat"></div>
-      <ul id="option">
-        <li>
-          <a href="">
-            <i class="fab fa-facebook-messenger"></i>
-            <span>Chat Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-phone"></i>
-            <span>0899 326 019</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-eye"></i>
-            <span>Xem Giao Diện</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-code"></i>
-            <span>Share Code</span>
-          </a>
-        </li>
-      </ul>
+      </form>
+      <hr>
+      <p>Góp ý</p>
+      <textarea required="" class="form-control" name="feedback_content" id="" cols="50" rows="15"></textarea>
     </div>
 
-    <button id="fixed">
-      TOP
-    </button>
-  
-    <div id="botEnd">
-  
-      <div class="color"></div>
-      <div class="phanDauEnd">
-        <div>
-          <img class="imgEnd"
-            src="images/logo.png" />
-        </div>
-        <div>
-          <span>COPYRIGHT © 2022 Trà sữa C4E</span>
-        </div>
-      </div>
-  
-      <div class="phanHaiEnd">
-     
-  
-        <span class="textEnd" id="trangChu"> Trang chủ </span>
-  
-        <span class="textEnd" > | </span>
-  
-        <span class="textEnd" id="sanPham"> Sản phẩm </span>
-  
-        <span class="textEnd" > | </span>
-  
-        <span class="textEnd" id="gioHang"> Giỏ hàng </span>
-  
-        <span class="textEnd" > | </span>
-  
-  
-  
-        <span class="textEnd" id="lienHe"> Liên hệ </span>
-  
-        
-      </div>
 
-<script src="chitietsanpham.js"></script>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="support">
+    <div id="iconChat"></div>
+    <ul id="option">
+      <li>
+        <a href="">
+          <i class="fab fa-facebook-messenger"></i>
+          <span>Chat Facebook</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-phone"></i>
+          <span>0899 326 019</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-eye"></i>
+          <span>Xem Giao Diện</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-code"></i>
+          <span>Share Code</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <button id="fixed" >
+   <a href="#Top" style="text-decoration:none;">TOP</a> 
+  </button>
+
+  <div id="botEnd">
+
+    <div class="color"></div>
+    <div class="phanDauEnd">
+      <div>
+        <img class="imgEnd" src="images/logo.png" />
+      </div>
+      <div>
+        <span>COPYRIGHT © 2022 Trà sữa C4E</span>
+      </div>
+    </div>
+
+    <div class="phanHaiEnd">
+
+
+      <span class="textEnd" id="trangChu"> Trang chủ </span>
+
+      <span class="textEnd"> | </span>
+
+      <span class="textEnd" id="sanPham"> Sản phẩm </span>
+
+      <span class="textEnd"> | </span>
+
+      <span class="textEnd" id="gioHang"> Giỏ hàng </span>
+
+      <span class="textEnd"> | </span>
+
+
+
+      <span class="textEnd" id="lienHe"> Liên hệ </span>
+
+
+    </div>
+
+    <script src="chitietsanpham.js"></script>
 </body>
 
 </html>

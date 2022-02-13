@@ -19,6 +19,8 @@
   font-weight: bold;
   font-size:25px;
   padding-top: 40px;
+  text-decoration:none;
+  color: #5dabca;;
 }
 #mainMid{
   margin-left:20% ;
@@ -68,7 +70,13 @@
 .color{
   background-color: #5dabca;
 }
-
+.trangChu{
+  
+  background-image: url(https://chupanhmonan.com/wp-content/uploads/2018/04/Bubble-Tea-Is-Actually-Pretty-Bad-For-You%E2%80%94Here%E2%80%99s-Why_102149926_stockcreations-1024x683-1024x683.jpg);
+  padding:60px 30px 60px 0;
+  padding-left: 20%;
+  
+}
 
 main {
   width:100%;
@@ -77,15 +85,7 @@ h1, h2, h3 {
   margin: 0 0 0.35em;
   font-weight: bold;
 }
-h1 {
-  background-color:rgb(46, 53, 37);
-  font-size:40px;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  text-align:center;
-}
+
 h2 {
   font-size: 30px;
   display: block;

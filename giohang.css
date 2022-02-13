@@ -17,8 +17,14 @@
     font-weight: bold;
     font-size:25px;
     padding-top: 40px;
+    text-decoration:none;
+    color: #5dabca;;
   }
-  
+  .gioHang {
+    background-image: url(https://chupanhmonan.com/wp-content/uploads/2018/04/Bubble-Tea-Is-Actually-Pretty-Bad-For-You%E2%80%94Here%E2%80%99s-Why_102149926_stockcreations-1024x683-1024x683.jpg);
+    padding:100px 30px 100px 0;
+    padding-left: 20%;
+  }
   
   
   
