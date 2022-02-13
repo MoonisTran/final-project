@@ -2,78 +2,162 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trà sữa C4E - Giỏ Hàng</title>
-    <link rel="stylesheet" href="giohang.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trà sữa C4E - Giỏ Hàng</title>
+  <link rel="stylesheet" href="giohang.css" />
 </head>
 
 <body>
 
-    <div id="topMain">
+  <div id="topMain">
 
-        <div class="barTop">
-          <span>
-    
-          </span>
-    
-          <a><img class="logoBar" src="images/logo.png">
-          </a>
-    
-          <a class="textBar" id="trangChu" href="http://127.0.0.1:5500/trangchu.html"> Trang chủ </a>
-    
-          <a class="textBar" id="sanPham" href="http://127.0.0.1:5500/sanpham.html"> Sản phẩm </a>
-    
-          <a class="textBar" id="gioHang" href="http://127.0.0.1:5500/giohang.html"> Giỏ hàng </a>
-    
-          <a class="textBar" id="lienHe" href="http://127.0.0.1:5500/lienhe.html"> Liên hệ </a>
-    
-          <span>
-    
-          </span>
+    <div class="barTop">
+      <span>
+
+      </span>
+
+      <a><img class="logoBar" src="images/logo.png">
+      </a>
+
+      <a class="textBar" id="trangChu" href="http://127.0.0.1:5500/trangchu.html"> Trang chủ </a>
+
+      <a class="textBar" id="sanPham" href="http://127.0.0.1:5500/sanpham.html"> Sản phẩm </a>
+
+      <a class="textBar" id="gioHang" href="http://127.0.0.1:5500/giohang.html"> Giỏ hàng </a>
+
+      <a class="textBar" id="lienHe" href="http://127.0.0.1:5500/lienhe.html"> Liên hệ </a>
+
+      <span>
+
+      </span>
+    </div>
+
+  </div>
+
+  <h1 class="gioHang">Giỏ Hàng</h1>
+  <div id="gioHang">
+    <hr>
+    <p id="traSua">Bạn chưa đặt trà sữa 🙁 ? Tìm cho mình và bạn bè một cốc trà sữa</p>
+    <hr>
+    <h2>Thông tin đặt hàng</h2>
+    <div class="thongTinDatHang">
+
+      <div class="thongTinNguoiNhan">
+        <form action="/action_page.php" method="get"></form>
+        <div>
+          <label class="size20px bold" for="tenNguoiNhan">Tên người nhận</label> <br />
+          <input id="tenNguoiNhan" required>
         </div>
-    
+        <div>
+          <label class="size20px bold" for="soDienThoai"> Số điện thoại</label><br />
+          <input id="soDienThoai" type="number" required>
+        </div>
+        <div>
+          <label class="size20px bold" for="email">Email</label> <br />
+          <input id="email" type="email" required>
+        </div>
+        <div>
+          <label class="size20px bold" for="chonCuaHang"> Chọn cửa hàng</label><br />
+          <input id="chonCuaHang" required>
+        </div>
       </div>
+      <div class="diaChiDatHang">
+        <div>
+          <label class="size20px bold">Địa chỉ giao hàng </label><textarea required="" class="form-control"
+            name="feedback_content" id="" cols="30" rows="10"></textarea>
+        </div>
+      </div>
+    </div>
 
-      <h1 class="gioHang">Giỏ Hàng</h1>
-    <div id="gioHang">
-            <hr>
-            <p>Bạn chưa đặt trà sữa 🙁 ? Tìm cho mình và bạn bè một cốc trà sữa</p>
-            <hr>
-            <h2>Thông tin đặt hàng</h2>
-            <div class="thongTinDatHang">
-                <div class="thongTinNguoiNhan">
-                    <div>
-                        <span class="size20px bold">Tên người nhận</span> <br /><input>
-                    </div>
-                    <div>
-                        <span class="size20px bold"> Số điện thoại</span><br /> <input type="number">
-                    </div>
-                    <div>
-                        <span class="size20px bold">Email</span> <br /><input type="email">
-                    </div>
-                    <div>
-                        <span class="size20px bold"> Chọn cửa hàng</span><br /> <input>
-                    </div>
-                </div>
-                <div class="diaChiDatHang">
-                    <div>
-                        <span class="size20px bold">Địa chỉ giao hàng </span><textarea required="" class="form-control"
-                            name="feedback_content" id="" cols="30" rows="10"></textarea>
-                    </div>
-                </div>
-            </div>
+    <div class="ghiChu">
+      <p class="size20px bold">Ghi chú</p>
+      <textarea required="" class="form-control" name="feedback_content" id="" cols="30" rows="10"></textarea>
+    </div>
 
-            <div class="ghiChu">
-                <p class="size20px bold">Ghi chú</p>
-                <textarea required="" class="form-control" name="feedback_content" id="" cols="30" rows="10"></textarea>
-            </div>
+    <p class="size20px">Thanh toán khi nhận hàng (COD),
+      Phí ship sẽ được nhận viên gọi điện để xác nhận</p>
 
-            <p class="size20px">Thanh toán khi nhận hàng (COD),
-                Phí ship sẽ được nhận viên gọi điện để xác nhận</p>
+    <input id="datHang" type="submit" value="Đặt Hàng"></input>
+    </form>
 
-            <button class="datHang">Đặt Hàng</button>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="support">
+    <div id="iconChat"></div>
+    <ul id="option">
+      <li>
+        <a href="">
+          <i class="fab fa-facebook-messenger"></i>
+          <span>Chat Facebook</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-phone"></i>
+          <span>0899 326 019</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-eye"></i>
+          <span>Xem Giao Diện</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-code"></i>
+          <span>Share Code</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <button id="fixed">
+    <a href="#Top" style="text-decoration:none;">TOP</a>
+  </button>
+
+  <div id="botEnd">
+
+    <div class="color"></div>
+    <div class="phanDauEnd">
+      <div>
+        <img class="imgEnd" src="images/logo.png" />
+      </div>
+      <div>
+        <span>COPYRIGHT © 2022 Trà sữa C4E</span>
+      </div>
+    </div>
+
+    <div class="phanHaiEnd">
+
+
+      <span class="textEnd" id="trangChu"> Trang chủ </span>
+
+      <span class="textEnd"> | </span>
+
+      <span class="textEnd" id="sanPham"> Sản phẩm </span>
+
+      <span class="textEnd"> | </span>
+
+      <span class="textEnd" id="gioHang"> Giỏ hàng </span>
+
+      <span class="textEnd"> | </span>
+
+
+
+      <span class="textEnd" id="lienHe"> Liên hệ </span>
 
 
     </div>
@@ -81,85 +165,7 @@
 
 
 
-
-
-
-
-
-
-
-
-    <div id="support">
-        <div id="iconChat"></div>
-        <ul id="option">
-          <li>
-            <a href="">
-              <i class="fab fa-facebook-messenger"></i>
-              <span>Chat Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <i class="fas fa-phone"></i>
-              <span>0899 326 019</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <i class="fas fa-eye"></i>
-              <span>Xem Giao Diện</span>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <i class="fas fa-code"></i>
-              <span>Share Code</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <button id="fixed" >
-        <a href="#Top" style="text-decoration:none;">TOP</a> 
-       </button>
-
-    <div id="botEnd">
-
-        <div class="color"></div>
-        <div class="phanDauEnd">
-            <div>
-                <img class="imgEnd" src="images/logo.png" />
-            </div>
-            <div>
-                <span>COPYRIGHT © 2022 Trà sữa C4E</span>
-            </div>
-        </div>
-
-        <div class="phanHaiEnd">
-
-
-            <span class="textEnd" id="trangChu"> Trang chủ </span>
-
-            <span class="textEnd"> | </span>
-
-            <span class="textEnd" id="sanPham"> Sản phẩm </span>
-
-            <span class="textEnd"> | </span>
-
-            <span class="textEnd" id="gioHang"> Giỏ hàng </span>
-
-            <span class="textEnd"> | </span>
-
-
-
-            <span class="textEnd" id="lienHe"> Liên hệ </span>
-
-
-        </div>
-
-
-
-
-        <script src="giohang.js"></script>
+    <script src="giohang.js"></script>
 </body>
 
 </html>
