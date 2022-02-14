@@ -191,6 +191,11 @@ footer{
     text-align: center;
   }
 }
+
+body {
+  background-image: url(https://scontent.fsgn8-1.fna.fbcdn.net/v/t39.30808-6/274021830_3212565145631092_8237335181878367855_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=zVYWL_ayovMAX89-FyR&_nc_ht=scontent.fsgn8-1.fna&oh=00_AT8nXgYNd2F-ew_HVWIjdwn23M30oC0B7rWNZ8yIbcuVyQ&oe=620F52C7);
+}
+
 /**/
 .social-list a {
   display: inline-block;
