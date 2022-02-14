@@ -32,12 +32,25 @@ const listBarTraSua = document.getElementById("list-bar-tra-sua")
         })
     })
 
-
+// ee
    
 $(document).ready(function () {
     $('.registratior_custom').fadeIn(200);
     $('.x-close').click(function (e) {
         e.preventDefault();
         $('.registratior_custom').fadeOut(0);
+    });
+});
+
+jQuery(document).ready(function () {
+    jQuery("#iconChat").click(function () {
+        jQuery('#option').toggle();
+    });
+    jQuery("#iconChat").click(function (e) {
+        e.stopPropagation();
+    });
+ 
+    jQuery(document).click(function () {
+        jQuery("#option").hide();
     });
 });
