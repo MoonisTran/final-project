@@ -164,6 +164,14 @@ img {
   border-radius: 4px;
   display: inline-block; }
 
+  .xem-them {
+    text-align: center;
+    display:block;
+    margin: auto;
+    
+  }
+
+
   #support ul li {
     list-style-type: none;
     margin: 0;
