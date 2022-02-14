@@ -5,14 +5,106 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trà sữa - Đặt hàng chi tiết</title>
-  <link rel="stylesheet" href="index.css" />
+  <title>Trà sữa C4E - Chi tiết sản phẩm</title>
+  <link rel="stylesheet" href="chitietsanpham.css" />
 </head>
 
 <body>
-  <div class="header">
-    <a style="color: #ffffff;text-decoration: none;" href="index.html">MIỄN PHÍ VẬN CHUYỂN VỚI ĐƠN HÀNG NỘI THÀNH > 300K
-      - ĐỔI BẢO ĐỘ LẠNH - ĐẢM BẢO CHẤT LƯỢNG</a>
+  <div id="topMain">
+
+    <div class="barTop">
+      <span>
+
+      </span>
+
+      <a><img class="logoBar" src="images/logo.png">
+      </a>
+
+      <a class="textBar" id="trangChu" href="http://127.0.0.1:5500/trangchu.html"> Trang chủ </a>
+
+      <a class="textBar" id="sanPham" href="http://127.0.0.1:5500/chitietsanpham.html"> Sản phẩm </a>
+
+      <a class="textBar" id="gioHang" href="http://127.0.0.1:5500/giohang.html"> Giỏ hàng </a>
+
+      <a class="textBar" id="lienHe" href="http://127.0.0.1:5500/lienhe.html"> Liên hệ </a>
+
+      <span>
+
+      </span>
+    </div>
+
+  </div>
+<h1 class="chiTiet">Chi Tiết Sản Phẩm</h1>
+  <div id="mainMid">
+
+    <div>
+      <img
+        src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070418032694/photo/71c400f667e548f98ef88bf0df39cba4_1589536295474185621.jpg"
+        style="width: 100%; height:70%;" />
+      <br><button style="width:200px;height: 100px;text-align: center;margin-left: 30%;background-color: lightblue;">
+       <a  href="http://127.0.0.1:5500/giohang.html" style="text-decoration:none;color:rgb(83, 73, 224)"> Xác nhận</a>
+      </button>
+    </div>
+
+    <div>
+      <span style="font-weight: bold;font-size: 25px;">Trà sữa trân châu hoàng kim </span>
+      <br><br>
+      <span style="color:rgb(12, 52, 161);font-size: 25px;">70,000 ₫ </span>
+      <br>
+      <input type="number" style="width: 100px;" placeholder="Số lượng">
+      <br>
+      <hr>
+      <span>Kích thước</span>
+      <br>
+      <form>
+        <select id="mySelect">
+          <option>Nhỏ</option>
+          <option>Vừa + 5.000đ</option>
+          <option>To + 10.000đ</option>
+        </select>
+      </form>
+      <hr>
+      <span>Tỷ lệ đá</span>
+      <form oninput="x.value=parseInt(a.value)">
+        <input type="range" id="a" value="0">
+
+        =<output name="x" for="a"></output>%
+      </form>
+      <br>
+      <hr>
+      <span>Tỷ lệ đường</span>
+      <form oninput="x.value=parseInt(a.value)">
+        <input type="range" id="a" value="0">
+
+        =<output name="x" for="a"></output>%
+      </form>
+      <br>
+      <hr>
+      <span>Topping</span>
+      <br>
+      <form action="/action_page.php">
+        <input type="checkbox" id="daoNgam" name="Topping">
+        <label for="daoNgam">Đào ngâm + 10.000đ</label><br>
+
+        <input type="checkbox" id="tranChauTrang" name="Topping">
+        <label for="tranChauTrang">Trân châu trắng + 10.000đ</label><br>
+
+        <input type="checkbox" id="tranChauDen" name="Topping">
+        <label for="tranChauDen">Trân châu đen + 10.000đ</label><br>
+
+        <input type="checkbox" id="foamCheese" name="Topping">
+        <label for="foamCheese">FoamCheese + 10.000đ</label><br>
+
+        <input type="checkbox" id="tranChauHoangKim" name="Topping">
+        <label for="tranChauHoangKim">Trân châu hoàng kim + 10.000đ</label><br>
+
+      </form>
+      <hr>
+      <p>Góp ý</p>
+      <textarea required="" class="form-control" name="feedback_content" id="" cols="50" rows="15"></textarea>
+    </div>
+
+
   </div>
 
 
@@ -25,80 +117,113 @@
 
 
 
+  <div id="support">
+    <div id="iconChat"></div>
+    <ul id="option">
+      <li>
+        <a href="">
+          <i class="fab fa-facebook-messenger"></i>
+          <span>Chat Facebook</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-phone"></i>
+          <span>0899 326 019</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-eye"></i>
+          <span>Xem Giao Diện</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fas fa-code"></i>
+          <span>Share Code</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 
   <button id="fixed">
-    TOP
+    <a href="#Top" style="text-decoration:none;">TOP</a>
   </button>
 
-  <div id="botEnd">
-
-    <div class="color"></div>
-    <div class="phanDauEnd">
-      <div>
-        <img class="imgEnd"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSAKd0DcjTU47SzqhB8MDVykteNXtqlyrvsrA8tgV7BPd0X9BOtmqM9-4BTdUXG_QUwMU&usqp=CAU" />
+  <footer class="main-footer" >
+    <div class="container">
+      <div class="row">
+  
+        <div class="gt">
+          <h4 class="footer-title">
+                Giới thiệu
+          </h4>
+          <div class="footer-content">
+            <p>C4S trà sữa sẽ mang đến hương vị dây dưa đầu lười còn giỏi hơn người yêu cũ của bạn</p>
+            </br>
+            <div class="social-list">
+              <a href="https://www.facebook.com/hoangnhu489"><img src="https://cdn-icons-png.flaticon.com/128/20/20837.png" title="Facebook" width="30"></a>
+              <a href="https://www.instagram.com/hoangnhu489/"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111491.png" title="Instagram" width="30"></a>
+              <a href="tel:0769608538"><img src="https://cdn-icons-png.flaticon.com/128/126/126509.png" title="Call Me" width="30"></a>
+              <a href="mailto:hoangnhu715@gmail.com"><img src="https://cdn-icons-png.flaticon.com/128/646/646094.png" title="Email" width="32"></a>
+            </div>
+          </div>
+        </div>
+              
+        <div class="lh">
+          <h4 class="footer-title">
+                Thông tin liên hệ
+          </h4>
+          <div class="footer-content toggle-footer">
+            <ul>
+              <li><span>Địa chỉ:</span> Nhà bạn Như, TP Thủ Đức, TP. Hồ Chí Minh, Vietnam</li>
+              <li><span>Điện thoại:</span> +84 (028) 39999999</li>
+              <li><span>Fax:</span> +84 (028) 39999999</li>
+              <li><span>Mail:</span> contact@c4s.com</li>
+            </ul>
+          </div>
+        </div>
+       
+        <div class="fp">
+          <h4 class="footer-title">
+                FANPAGE
+          </h4>
+          <div class="footer-content">
+            <div id="fb-root">
+              <div class="footer-static-content">
+                <div class="fb-page" data-href="https://www.facebook.com/hoangnhu489"
+                  data-tabs="timeline" data-width="" data-height="215" data-small-header="false"
+                  data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                  <blockquote cite="https://www.facebook.com/AziWorld-Viet-Nam-908555669481794/"
+                    class="fb-xfbml-parse-ignore"><a
+                    href="https://www.facebook.com/hoangnhu489">Tà tưa C4S</a>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
       </div>
-      <div>
-        <span>COPYRIGHT © 2022 Trà sữa C4E</span>
+  
+       
+  
+     
+    <div class="main-footer--copyright">
+      <div >
+        <hr width="100%" margin-left="80px">
+        <div class="main-footer--border" style="text-align:center;padding-bottom: 15px;">
+        </br>
+          <p>Copyright © 2022 <a href="https://mindxschool.teachable.com/courses/enrolled/1544939"> <u>C4S</u></a>. <a target="_blank"
+              href="https://www.facebook.com/hoangnhu489"><u>Powered by C4S-GR4</u></a></p>
+        </div>
       </div>
     </div>
-
-    <div class="phanHaiEnd">
-   
-
-      <span class="textEnd" id="trangChu"> Trang chủ </span>
-
-      <span class="textEnd" > | </span>
-
-      <span class="textEnd" id="sanPham"> Sản phẩm </span>
-
-      <span class="textEnd" > | </span>
-
-      <span class="textEnd" id="gioHang"> Giỏ hàng </span>
-
-      <span class="textEnd" > | </span>
-
-      <span class="textEnd" id="tuyenDung"> Tuyển dụng </span>
-
-      <span class="textEnd" > | </span>
-
-      <span class="textEnd" id="lienHe"> Liên hệ </span>
-
-      
-    </div>
-    <div id="support">
-      <div id="iconChat"></div>
-      <ul id="option">
-        <li>
-          <a href="">
-            <i class="fab fa-facebook-messenger"></i>
-            <span>Chat Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-phone"></i>
-            <span>0899 326 019</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-eye"></i>
-            <span>Xem Giao Diện</span>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <i class="fas fa-code"></i>
-            <span>Share Code</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-
-
-<script src="index.js"></script>
+    
+  </div>
+  </footer>
+    <script src="chitietsanpham.js"></script>
 </body>
 
 </html>

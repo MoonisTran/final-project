@@ -1,12 +1,35 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 #topMain{
   position: sticky;
   top: 0; 
-  padding-top: 10px;
+
   padding-bottom: 10px;
+
+
+}
+a:hover {
+  color: #DBE9EE;
 }
 .barTop {
   display: grid;
-  grid-template-columns:20% 10% 10% 10% 10% 10% 10% 20% ;
+  grid-template-columns:20% 12% 12% 12% 12% 12%  20% ;
+ 
+  color: #FFF;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+ 
+ 
+  position:sticky;
+ 
+  
+  background: url(https://tse2.mm.bing.net/th?id=OIP.ERdVAZEos975_yh18JCjigHaEK&pid=Api&P=0&w=302&h=170);
 }
 .logoBar{
   width:50%;
@@ -14,78 +37,13 @@
 .textBar{
   font-weight: bold;
   font-size:25px;
-  padding-top: 20px;
+  padding-top: 40px;
+  text-decoration:none;
+  color: #5dabca;;
 }
-
-
-main {
-  width:100%;
-}
-h1, h2, h3 {
-  margin: 0 0 0.35em;
-  font-weight: bold;
-}
-h1 {
-  background-color:rgb(46, 53, 37);
-  font-size:40px;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  text-align:center;
-}
-h2 {
-  font-size: 30px;
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-h3 {
-  font-size: 20px;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300;
-  height: 300;
-}
-.container {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px;
-}
-.body {
-  margin-left:60px;
-}
-.card-row {
-  display: grid;
-  grid-template-columns:max-content max-content max-content;
-  grid-template-rows:auto auto auto;
-  grid-gap:30px;
-}
-.card {
-  padding: 20px;
-  border: 1px solid #c9c9c9;
-  border-radius: 7px;
-  box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
-  max-width: 400px;
-  max-height: 450px;
-  display: block;
-}
-.card h3 em {
-  padding: 0.25em;
-  background-color: #d4c686;
-  border-radius: 4px;
-}
-.card h3 {
-  color: rgb(112, 119, 93);
-  align-items: start;
+#mainMid{
+  margin-left:20% ;
+  margin-right:20% ;
 }
 .button {
   text-decoration: none;
@@ -94,31 +52,6 @@ img {
   padding: 0.5em 1em;
   border-radius: 4px;
   display: inline-block; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #fixed{
   position:fixed;
   bottom: 0;
@@ -134,7 +67,7 @@ img {
   margin-bottom: 5px;
 }
 .phanDauEnd{
-  background-color: #544946;
+  background-color: #5dabca;
   padding: 20px 10px 20px 0;
 }
 .imgEnd{
@@ -154,9 +87,15 @@ img {
   padding: 20px 10px 20px 0;
 }
 .color{
-  background-color:#544946;
+  background-color: #5dabca;
 }
-
+.trangChu{
+  
+  background-image: url(https://chupanhmonan.com/wp-content/uploads/2018/04/Bubble-Tea-Is-Actually-Pretty-Bad-For-You%E2%80%94Here%E2%80%99s-Why_102149926_stockcreations-1024x683-1024x683.jpg);
+  padding:60px 30px 60px 0;
+  padding-left: 20%;
+  
+}
 
 main {
   width:100%;
@@ -165,15 +104,7 @@ h1, h2, h3 {
   margin: 0 0 0.35em;
   font-weight: bold;
 }
-h1 {
-  background-color:rgb(46, 53, 37);
-  font-size:40px;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  text-align:center;
-}
+
 h2 {
   font-size: 30px;
   display: block;
@@ -194,27 +125,21 @@ img {
   width: 300;
   height: 300;
 }
-.container {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 24px;
-}
-.body {
-  margin-left:60px;
-}
+
+
 .card-row {
   display: grid;
-  grid-template-columns:max-content max-content max-content;
-  grid-template-rows:auto auto auto;
-  grid-gap:30px;
+  grid-template-columns: max-content  max-content max-content max-content;
+  grid-template-rows:auto auto auto auto;
+  grid-gap:25px;
+  margin-left: -220px;
 }
 .card {
   padding: 20px;
   border: 1px solid #c9c9c9;
   border-radius: 7px;
   box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
-  max-width: 400px;
+  max-width: 299px;
   max-height: 450px;
   display: block;
 }
@@ -246,6 +171,12 @@ img {
     color: #333;
 }
  
+.row-flex {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
  
 /* Style Css */
  
@@ -380,7 +311,7 @@ img {
     background: #FF643A;
 }
 
-.registratior_custom {
+#registratior_custom {
   width: 100%;
   /* padding-top: 50px; */
   height: 100vh;
@@ -393,7 +324,7 @@ img {
   z-index: 999999999999999999999999;
   /* display: none; */
 }
-.registratior_custom form {
+#registratior_custom form {
   width: 50%;
   position: relative;
   margin: auto;
@@ -403,22 +334,22 @@ img {
   width: 832px;
   height: 680px;
 }
-.registratior_custom form .content {
+#registratior_custom form .content {
   background-color: rgba(245, 247, 246, 0.87);
   padding: 20px 20px 0px 20px;
   margin-top: 490px;
   margin-left: 200px;
 }
-.registratior_custom form .content h3 {
+#registratior_custom form .content h3 {
   font-size: 24px;
   margin: 0px 0px 10px;
   font-weight: 500;
 }
-.registratior_custom form .content p {
+#registratior_custom form .content p {
   font-size: 14px;
   margin-bottom: 5px;
 }
-.registratior_custom form .content .x-close {
+#registratior_custom form .content #x-close {
   position: absolute;
   top: 14px;
   right: 10px;
@@ -428,14 +359,14 @@ img {
   font-size: 24px;
   cursor: pointer;
 }
-.registratior_custom form .content ul {
+#registratior_custom form .content ul {
   margin: initial;
   padding: initial;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-.registratior_custom form .content input {
+#registratior_custom form .content input {
   margin: initial;
   padding: initial;
   display: block;
@@ -444,7 +375,7 @@ img {
   border: none;
   padding: 10px 20px;
 }
-.registratior_custom form .content button {
+#registratior_custom form .content button {
   margin: initial;
   padding: initial;
   display: block;
@@ -457,17 +388,200 @@ img {
   color: #fff;
   margin-bottom: 60px;
 }
-.registratior_custom form .content button:hover {
+#registratior_custom form .content button:hover {
   background-color: #fff !important;
   transition: step-end 0.2s;
   border: 1px solid #e7e7e7;
 }
-.registratior_custom form .content button:hover p {
+#registratior_custom form .content button:hover p {
   color: #e5f5f1 !important;
   transition: step-end 0.2s;
 }
-.registratior_custom form .content button p {
+#registratior_custom form .content button p {
   margin: initial;
   padding: initial;
   font-weight: 600 !important;
+<<<<<<< HEAD:index.css
 }
+=======
+ 
+}
+.sl1{
+  top: 310px;
+  position: fixed; 
+  left: 86%;
+  margin-right: 10px; 
+
+  
+}
+
+.main-footer a {
+  color: #272727;
+  text-decoration: none;
+}
+
+footer .footer-content ol,
+ul {
+  /* padding-left: 20px !important; */
+}
+.main-footer h4 {
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  margin: 0 0 20px;
+  position: relative;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-left: -18px;
+}
+.main-footer .footer-col a:hover {
+  color: #333;
+  text-decoration: none;
+}
+.main-footer .footer-col {
+  margin-bottom: 24px;
+  padding-left: 25px;
+}
+.main-footer .footer-content ul {
+  margin-bottom: 15px;
+}
+.main-footer .footer-content ul li {
+  display: block;
+  line-height: 28px;
+  position: relative;
+}
+.main-footer .footer-content ul li a,
+.main-footer .footer-content ul li span {
+  position: relative;
+  overflow: hidden;
+}
+.main-footer .footer-content.toggle-footer ul li a:before,
+.main-footer .footer-content.toggle-footer ul li span:before {
+  content: "";
+  width: 7px;
+  height: 1px;
+  background: #000000;
+  left: -18px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.footer-content.toggle-footer span {
+  font-weight: 500;
+}
+.main-footer .list-social {
+  margin-bottom: 10px;
+}
+.main-footer .list-social li {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  margin-right: 12px;
+}
+.main-footer .list-social li a {
+  font-size: 12px;
+  display: block;
+  line-height: 22px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.logo-footer {
+  margin-bottom: 20px;
+}
+.logo-footer img {
+  width: 150px;
+}
+.main-footer--copyright .main-footer--border {
+  border-bottom: none;
+  width: 100%;
+}
+.main-footer--copyright p {
+  text-align: center;
+  margin-bottom: 0;
+}
+.main-footer--copyright {
+  color: #272727;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+.main-footer {
+  padding: 24px 0 0;
+  border-top: 1px dashed #e0d9d6;
+ 
+}
+footer{
+  font-color: white;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-OvbRy-aikTFaJ5G88Nl2XXM_68mkFUC1MQ&usqp=CAU);
+}
+ .row {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: space-between;
+  gap: 80px;
+  margin-left: 80px;
+}
+
+.container {
+  max-width: 89%;
+
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*  */
+@media only screen and (max-width: 600px) {
+  .logo-footer {
+    text-align: center;
+  }
+  .social-list {
+    text-align: center;
+  }
+}
+/**/
+.social-list a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  
+  
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+  margin: 0 10px 0 0;
+  position: relative;
+  text-decoration: none !important;
+}
+.social-list a:hover {
+  background: #fff;
+  color: #000000;
+}
+.social-list a:after {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 4px solid #000000;
+  opacity: 0;
+}
+.social-list a:hover:after {
+  opacity: 0.31;
+  filter: alpha(opacity=100);
+}
+
+>>>>>>> 7649e2591a70293aaf3bb6054661d97b6e6a58f1:trangchu.css

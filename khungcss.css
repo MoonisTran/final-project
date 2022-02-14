@@ -1,13 +1,22 @@
 #topMain{
     position: sticky;
     top: 0; 
-
     padding-bottom: 10px;
   }
   .barTop {
     display: grid;
     grid-template-columns:20% 12% 12% 12% 12% 12%  20% ;
-    color: rgb(39, 161, 161);
+   
+    color: #FFF;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+   
+   
+    position:sticky;
+   
+    
     background: url(https://tse2.mm.bing.net/th?id=OIP.ERdVAZEos975_yh18JCjigHaEK&pid=Api&P=0&w=302&h=170);
   }
   .logoBar{
@@ -20,53 +29,10 @@
     text-decoration:none;
     color: #5dabca;;
   }
-  .gioHang {
-    background-image: url(https://chupanhmonan.com/wp-content/uploads/2018/04/Bubble-Tea-Is-Actually-Pretty-Bad-For-You%E2%80%94Here%E2%80%99s-Why_102149926_stockcreations-1024x683-1024x683.jpg);
-    padding:100px 30px 100px 0;
-    padding-left: 20%;
-    margin-top: 0px;
+  #mainMid{
+    margin-left:20% ;
+    margin-right:20% ;
   }
-  #hangDaDat{
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-  
-  
-  
-  
-  
-  .thongTinDatHang{
-    display: grid;
-    grid-template-columns:50% 50%;
-  }
-  .thongTinNguoiNhan{
-    text-align: center;
-  }
-  
-  #gioHang{
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  input{
-    width: 60%; height: 30px;
-  }
-  textarea{
-    width: 100%;
-  }
-  .size20px{
-    font-size:20px;
-  
-  }
-  .bold{
-    font-weight: bold;
-  }
-  #datHang{
-    background-color: rgb(214, 116, 116);
-    width: 100px;
-    height: 100px;
-    margin-left:70%;
-  }
-  
   
 .main-footer a {
   color: #272727;
@@ -237,14 +203,14 @@ footer{
   filter: alpha(opacity=100);
 }
 
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
   #fixed{
     position:fixed;
     bottom: 0;
@@ -282,7 +248,8 @@ footer{
   .color{
     background-color: #5dabca;
   }
-  
+
+
   
   #option {
     background: center no-repeat #FFF;
