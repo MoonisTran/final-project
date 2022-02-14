@@ -279,8 +279,9 @@
         align-items: flex-start;
         align-content: space-between;
         gap: 80px;
-        margin-left: 80px;
+        margin-left: 12%;
         border-left: 2px;
+     
       }
       .name-menu ul {
         list-style: none;  
@@ -303,8 +304,9 @@
       .name-menu{
         position: sticky;
         top: 0; 
-        padding-top:10%;
+        margin-top:10%;
         padding-bottom: 10px;
+        
       }
       .myTraSua{
         background-color: #95d1e9;
