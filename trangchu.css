@@ -1,8 +1,3 @@
-* {
-  font-family: "Quicksand", sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
 #topMain{
   position: sticky;
@@ -16,30 +11,41 @@ a:hover {
 .barTop {
   
   display: grid;
-  grid-template-columns:20% 12% 12% 12% 12% 12%  20% ;
+  grid-template-columns: 5% 18% 18% 18% 18% 18%  5% ;
  
   color: #FFF;
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  
+  justify-content: center;
+  text-align: center;
+  background-repeat: no-repeat ;
  
- 
+  padding: 10px;
   position:sticky;
  
 
-  background: url(https://tse2.mm.bing.net/th?id=OIP.ERdVAZEos975_yh18JCjigHaEK&pid=Api&P=0&w=302&h=170);
-  
+  background: url(https://img.besthqwallpapers.com/Uploads/22-5-2020/134214/blue-stone-background-4k-stone-textures-grunge-backgrounds-stone-wall.jpg);
+  background-size: cover;
 }
 .logoBar{
-  width:50%;
+  width:10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
 }
 .textBar{
   font-weight: bold;
-  font-size:25px;
-  padding-top: 40px;
-  text-decoration:none;
-  color: #5dabca;;
+  font-size: 25px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-decoration: none;
+  color: #5dabca;
+
+  justify-content: center;
+  text-align: center;
+
+
 }
 #mainMid{
   margin-left:20% ;
@@ -91,9 +97,10 @@ a:hover {
 }
 .trangChu{
   
-  background-image: url(https://chupanhmonan.com/wp-content/uploads/2018/04/Bubble-Tea-Is-Actually-Pretty-Bad-For-You%E2%80%94Here%E2%80%99s-Why_102149926_stockcreations-1024x683-1024x683.jpg);
+  background-image:url(/images/images.jfif);
   padding:100px 30px 100px 0;
   padding-left: 20%;
+  padding-right: 20%;
   
 }
 body {
@@ -132,11 +139,13 @@ img {
 
 
 .card-row {
-  display: grid;
-  grid-template-columns: max-content  max-content max-content max-content;
-  grid-template-rows:auto auto auto auto;
-  grid-gap:25px;
-  margin-left: -220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+
 }
 .card {
   padding: 20px;
@@ -398,7 +407,7 @@ footer{
 }
 
 .container {
-  max-width: 89%;
+  max-width: 100%;
 
 }
 
