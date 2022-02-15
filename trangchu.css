@@ -11,7 +11,7 @@ a:hover {
 .barTop {
   
   display: grid;
-  grid-template-columns: 5% 18% 18% 18% 18% 18%  5% ;
+  grid-template-columns: 10% 0% 20% 20% 20% 20% 10% ;
  
   color: #FFF;
   font-family: "Oswald", sans-serif;
@@ -29,7 +29,7 @@ a:hover {
   background-size: cover;
 }
 .logoBar{
-  width:10%;
+  width: 0;
   padding-top: 40px;
   padding-bottom: 40px;
 
@@ -41,6 +41,7 @@ a:hover {
   padding-bottom: 10%;
   text-decoration: none;
   color: #5dabca;
+  
 
   justify-content: center;
   text-align: center;
