@@ -6,10 +6,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trà sữa C4E - Trang chủ</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="trangchu.css" />
 </head>
 
 <body>
+
+  <!-- Messenger Plugin chat Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Plugin chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "227480997766694");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v13.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  
   <div id="topMain">
     
     <div class="barTop">
@@ -57,80 +90,80 @@
           <img
               src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070418032694/photo/71c400f667e548f98ef88bf0df39cba4_1589536295474185621.jpg"
               alt="Trà sữa trân châu hoàng kim" />
-              <h3>Trà sữa trân châu hoàng kim </br></br><em>70,000 ₫</em></h3>
+              <h3>Trà sữa trân châu hoàng kim </br></br><em>70,000 ₫</em></h3></br>
               <p>
                 Golden bubble milk tea
-              </p>
+              </p></br>
               <a href="http://127.0.0.1:5500/chitietsanpham.html" class="button">Đặt ngay</a>
             </article>
             <article class="card">
               <img
               src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070443042011/photo/399af57856d94493be0458cdd2c40514_1589536313581558065.jpg"
               alt="Trà oolong latte" />
-              <h3>Trà oolong latte </br></br><em>50,000 ₫</em></h3>
+              <h3>Trà oolong latte </br></br><em>50,000 ₫</em></h3></br>
               <p>
                 Oolong tea latte
-              </p>
+              </p></br>
               <a href="http://127.0.0.1:5500/chitietsanpham.html" class="button">Đặt ngay</a>
             </article>
             <article class="card">
               <img
               src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070351021372/photo/2b55d284e9c84cde89c01941fc369b8b_1589536297672259597.jpg"
               alt="Trà oolong macchiato" />
-            <h3>Trà oolong macchiato </br></br><em>45,000 ₫</em></h3>
+            <h3>Trà oolong macchiato </br></br><em>45,000 ₫</em></h3></br>
             <p>
               Macchiato đặc trưng
-            </p>
+            </p></br>
             <a href="http://127.0.0.1:5500/chitietsanpham.html" class="button">Đặt ngay</a>
           </article>
           <article class="card">
             <img
             src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20210302060656019912/photo/9382e6dd11fc42a1861c1a7d8575b560_1614669531574057649.jpeg"
             alt="Lục trà đào mật ong" />
-            <h3>Lục trà đào mật ong </br></br><em>52,000 ₫</em></h3>
+            <h3>Lục trà đào mật ong </br></br><em>52,000 ₫</em></h3></br>
             <p>
               Peach honey green tea
-            </p>
+            </p></br>
             <a href="http://127.0.0.1:5500/chitietsanpham.html" class="button">Đặt ngay</a>
           </article>
           <article class="card">
             <img
             src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200407125226019095/photo/1b026e6818c14b1591be4042cba6e249_1589536295252126837.jpg"
             alt="Lục trà sữa thạch dừa trân châu" />
-            <h3>Lục trà sữa thạch dừa trân châu </br></br> <em>59,000 ₫</em></h3>
+            <h3>Lục trà sữa thạch dừa trân châu </br></br> <em>59,000 ₫</em></h3></br>
             <p>
               Bubble green milk tea with coconut jelly
-            </p>
+            </p></br>
             <a href="http://127.0.0.1:5500/chitietsanpham.html" class="button">Đặt ngay</a>
           </article>
           <article class="card">
             <img
             src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070456028338/photo/dd3a1afe659140f29d1f24d2feb021c8_1589536297174192769.jpg"
             alt="Sữa tươi trân châu đường đen" />
-            <h3>Sữa tươi trân châu đường đen </br></br><em>67,000 ₫</em></h3>
+            <h3>Sữa tươi trân châu đường đen </br></br><em>67,000 ₫</em></h3></br>
             <p>
               Brown sugar fresh milk bubble
-            </p>
+            </p></br>
             <a href="http://127.0.0.1:5500/chitietsanpham.html" class="button">Đặt ngay</a>
           </article>
           <article class="card">
             <img
             src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070407018208/photo/6f9166e1b2834ee7a3e89f44d2015109_1589536305285163027.jpg"
             alt="Trà oolong đào" />
-            <h3>Trà oolong đào </br></br><em>56,000 ₫</em></h3>
+            <h3>Trà oolong đào </br></br><em>56,000 ₫</em></h3></br>
             <p>
               Peach oolong tea
-            </p>
+            </p></br>
             <a href="http://127.0.0.1:5500/chitietsanpham.html" class="button">Đặt ngay</a>
           </article>          
           <article class="card">
             <img
             src="https://d1sag4ddilekf6.azureedge.net/compressed/items/VNITE20200103070417048674/photo/8e8946efe98f4df99ae0b1cba4c7b993_1589536295874355391.jpg"
             alt="Trà sữa sương sáo" />
-            <h3>Trà sữa sương sáo</br></br><em>57,000 ₫</em></h3>
+            <h3>Trà sữa sương sáo</br></br><em>57,000 ₫</em></h3></br>
             <p>
               Grass jelly milk tea
-            </p>
+            </p></br>
             <a href="http://127.0.0.1:5500/chitietsanpham.html" class="button">Đặt ngay</a>
           </article>
         </section>
