@@ -271,11 +271,9 @@ img {
   margin: initial;
   padding: initial;
   font-weight: 600 !important;
-<<<<<<< HEAD:index.css
 }
-=======
  
-}
+
 .sl1{
   top: 310px;
   position: fixed; 
@@ -290,10 +288,7 @@ img {
   text-decoration: none;
 }
 
-footer .footer-content ol,
-ul {
-  /* padding-left: 20px !important; */
-}
+
 .main-footer h4 {
   font-size: 15px;
   letter-spacing: 0.02em;
@@ -383,7 +378,7 @@ ul {
  
 }
 footer{
-  font-color: white;
+ 
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-OvbRy-aikTFaJ5G88Nl2XXM_68mkFUC1MQ&usqp=CAU);
 }
  .row {
@@ -454,4 +449,3 @@ footer{
   filter: alpha(opacity=100);
 }
 
->>>>>>> 7649e2591a70293aaf3bb6054661d97b6e6a58f1:trangchu.css

@@ -61,10 +61,7 @@
   text-decoration: none;
 }
 
-footer .footer-content ol,
-ul {
-  /* padding-left: 20px !important; */
-}
+
 .main-footer h4 {
   font-size: 15px;
   letter-spacing: 0.02em;
@@ -154,7 +151,7 @@ ul {
  
 }
 footer{
-  font-color: white;
+ 
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-OvbRy-aikTFaJ5G88Nl2XXM_68mkFUC1MQ&usqp=CAU);
 }
  .row {
