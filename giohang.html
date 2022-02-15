@@ -64,53 +64,10 @@
     </div> 
    </td> 
    <td data-th="Price">70.000 đ</td> 
-   <td class="price" id="price_{{ item.id }}">{{ item.price | money}}</td>
-
    <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
    </td> 
-   <td class="price" id="line_price_{{ item.id }}">{{ item.line_price | money }}</td>
-
-   <!-- <td data-th="Subtotal" class="text-center">70.000 đ</td>  -->
+   <td data-th="Subtotal" class="text-center">70.000 đ</td> 
    <td class="actions" data-th="">
-    <td>&nbsp;</td>
-    <span class="total">
-      <strong id="total">{{ cart.total_price | money }}</strong>
-    </span>
-    <script>
-      var arrays = {};
-      window.onload = function () {
-        var inputs = document.getElementsByTagName('input');
-        for (var i = 0; i < inputs.length; i++) {
-          var input_id,quantity;
-          if (inputs[i].id.indexOf('updates_') != -1) {
-            input_id = inputs[i].id.replace('updates_','');//lấy id của input
-            arrays[input_id] = document.getElementById('price_' + input_id).innerHTML.replace(/₫|,/g,'');
-            inputs[i].onchange = function () {
-              input_id = this.id.replace('updates_','');//lấy id của input
-              var price = document.getElementById('price_' + input_id).innerHTML.replace(/₫|,/g,'');
-              var line_total_price = 0;
-              quantity = document.getElementById('updates_' + input_id).value;
-              if(quantity != ""){
-                line_total_price += parseInt(quantity)*price;
-              }
-              line_total_price = line_total_price.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
-              document.getElementById('line_price_'+input_id).innerHTML = line_total_price + "₫";
-      
-              //tổng tiền
-              var total = 0;
-              for(var array in arrays){
-                quantity = document.getElementById('updates_' + array).value;
-                if(quantity != ""){
-                  total += parseInt(quantity)*arrays[array];
-                }
-              }
-              total = total.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
-              document.getElementById('total').innerHTML = total + "₫";
-            }
-          }
-        }
-      }
-      </script>
     <button class="btn btn-default"><span class="glyphicon glyphicon-trash"></span>
     </button>
    </td> 
@@ -118,7 +75,7 @@
   <tr> 
    <td data-th="Product"> 
     <div class="row"> 
-     <div ><img src="images/9382e6dd11fc42a1861c1a7d8575b560_1614669531574057649.jpeg" alt="Sản phẩm 1"  width="100%" height="100%">
+     <div ><img src="images/hoangkim.png" alt="Sản phẩm 1"  width="100%" height="100%">
      </div> 
      <div class="col-sm-10"> 
       <h4 class="nomargin">Sản phẩm 2</h4> 
