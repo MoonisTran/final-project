@@ -15,6 +15,17 @@ function change_displayEnd() {
     document.getElementById("registratior_custom").style.display = "none";
 }
 
-
+jQuery(document).ready(function () {
+    jQuery("#iconChat").click(function () {
+        jQuery('#option').toggle();
+    });
+    jQuery("#iconChat").click(function (e) {
+        e.stopPropagation();
+    });
+ 
+    jQuery(document).click(function () {
+        jQuery("#option").hide();
+    });
+});
 
 

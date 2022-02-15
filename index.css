@@ -54,7 +54,7 @@ a:hover {
   display: inline-block; }
 #fixed{
   position:fixed;
-  bottom: 0;
+  bottom: 60px;
   right: 0;
   width: 50px;
   height: 50px;
@@ -172,17 +172,7 @@ img {
   }
 
 
-  #support ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
- 
-#support a {
-    text-decoration: none;
-    color: #333;
-}
- 
+
 .row-flex {
   display: -webkit-flex;
   display: flex;
@@ -190,138 +180,6 @@ img {
   align-items: center;
 }
  
-/* Style Css */
- 
- 
-/* Icon Click */
- 
-#support {
-    position: fixed;
-    left: 10px;
-    bottom: 10px;
-    width: 60px;
-    height: 60px;
-    z-index: 99999;
-}
- 
-#iconChat {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #189eff;
-    cursor: pointer;
-    border-radius: 99px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
-}
- 
-#iconChat:before {
-    content: "\f1d8";
-    position: absolute;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 700;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    top: 10px;
-    left: 10px;
-    color: #189eff;
-    background: #fff;
-    border-radius: 99px;
-}
- 
- 
-/* Style Option Tab */
- 
-#option {
-    background: center no-repeat #FFF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
-    width: 235px;
-    position: absolute;
-    bottom: 60px;
-    right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    padding: 14px 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 7px;
-    -webkit-transform-origin: 80% 105%;
-    -ms-transform-origin: 80% 105%;
-    transform-origin: 80% 105%;
-    -webkit-transition: ease-out .12s all;
-    -o-transition: ease-out .12s all;
-    transition: ease-out .12s all;
-    z-index: 10000;
-    display: none
-}
- 
-#option:before {
-    content: "";
-    position: absolute;
-    bottom: -7px;
-    right: 25px;
-    left: auto;
-    display: inline-block!important;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #FFF;
-    border-left: 10px solid transparent;
-}
- 
-#option li {
-    width: 100%;
-}
- 
-#option li a {
-    display: inline-block;
-    padding: 8px 10px;
-}
- 
-#option li:hover {
-    background: #eee;
-}
- 
-#option li a i {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    background: #189eff;
-    text-align: center;
-    border-radius: 99px;
-    color: #fff;
-    margin-right: 8px;
-}
- 
- 
-/* Background Icon */
- 
-#option li a i.fa-facebook-messenger {
-    background: #0078FF;
-}
- 
-#option li a i.fa-phone {
-    background: #4EB625;
-}
- 
-#option li a i.fa-code {
-    background: #000;
-}
- 
-#option li a i.fa-eye {
-    background: #FF643A;
-}
 
 #registratior_custom {
   width: 100%;
