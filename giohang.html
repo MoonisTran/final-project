@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trà sữa C4E - Giỏ Hàng</title>
   <link rel="stylesheet" href="giohang.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
 </head>
 
 <body>
@@ -38,36 +40,78 @@
  
   <h1 class="gioHang">Giỏ Hàng</h1><br>
   <div id="gioHang">
-    
-    <div id="hangDaDat">
-      <div>
-        <img
-          src="https://o.remove.bg/downloads/c02edf83-cd5a-44e7-ab9f-e0b0607b7d06/71c400f667e548f98ef88bf0df39cba4_1589536295474185621-removebg-preview.png"
-          style="width: 100%; height:90%;" />
-      </div>
-      <div>
-        <span style="font-weight: bold;font-size: 25px;">Trà sữa trân châu hoàng kim </span>
-        <br><br>
-        <span style="color:rgb(12, 52, 161);font-size: 25px;">105,000 ₫ </span>
-        <br><br>
-        <hr>
-        <span style="font-size: 25px;"><br>Số lượng 1</span>
-        <br><br>
-        <hr>
-        <span style="font-size: 25px;"><br>Kích thước vừa</span>
-        <br><br>
-        <hr>
-        <span style="font-size: 25px;"><br>Tỷ lệ đá 29%</span>
-        <br><br>
-        <hr>
-        <span style="font-size: 25px;"><br>Tỷ lệ đường 30%</span>
-        <br><br>
-        <hr>
-        <span style="font-size: 25px;"><br>Topping : Đào ngâm + Trân châu trắng </span>
-      </div>
-    </div>
+    <h2 class="text-center">Tất cả thức uống đã thêm vào giỏ</h2>
+<div class="container"> 
+ <table id="cart" class="table table-hover table-condensed"> 
+  <thead> 
+   <tr> 
+    <th style="width:50%">Tên sản phẩm</th> 
+    <th style="width:10%">Giá</th> 
+    <th style="width:8%">Số lượng</th> 
+    <th style="width:22%" class="text-center">Thành tiền</th> 
+    <th style="width:10%"> </th> 
+   </tr> 
+  </thead> 
+  <tbody><tr> 
+   <td data-th="Product"> 
+    <div class="row"> 
+     <div class=><img src="images/hoangkim.png" alt="Sản phẩm 1" width="100%" height="100%" >
+     </div> 
+     <div class="col-sm-10"> 
+      <h4 class="nomargin">Sản phẩm 1</h4> 
+      <p>Trà sữa trân châu hoàng kim</p> 
+     </div> 
+    </div> 
+   </td> 
+   <td data-th="Price">70.000 đ</td> 
+   <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+   </td> 
+   <td data-th="Subtotal" class="text-center">70.000 đ</td> 
+   <td class="actions" data-th="">
+    <button class="btn btn-default"><span class="glyphicon glyphicon-trash"></span>
+    </button>
+   </td> 
+  </tr> 
+  <tr> 
+   <td data-th="Product"> 
+    <div class="row"> 
+     <div ><img src="images/hoangkim.png" alt="Sản phẩm 1"  width="100%" height="100%">
+     </div> 
+     <div class="col-sm-10"> 
+      <h4 class="nomargin">Sản phẩm 2</h4> 
+      <p>Lục trà đào mật ong
+      </p> 
+     </div> 
+    </div> 
+   </td> 
+   <td data-th="Price">52.000 đ</td> 
+   <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+   </td> 
+   <td data-th="Subtotal" class="text-center">52.000 đ</td> 
+   <td class="actions" data-th="">
+    <button class="btn btn-default"><span class="glyphicon glyphicon-trash"></span>
+    </button>
+   </td> 
+  </tr> 
+  </tbody><tfoot> 
+   <tr class="visible-xs"> 
+    <td class="text-center"><strong>Tổng 122.000 đ</strong>
+    </td> 
+   </tr> 
+   <tr> 
+    <td><a href="/final-project/sanpham.html" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+    </td> 
+    <td colspan="2" class="hidden-xs"> </td> 
+    <td class="hidden-xs text-center"><strong>Tổng tiền 122.000 đ</strong>
+
+   </tr> 
+  </tfoot> 
+ </table>
+</div>
+</div>
     <hr>
     <h2>Thông tin đặt hàng</h2>
+    <div class="giohang">
     <div class="thongTinDatHang">
 
       <div class="thongTinNguoiNhan">
@@ -106,12 +150,12 @@
     </div>
 
     <div class="ghiChu">
-      <p class="size20px bold">Ghi chú</p>
-      <textarea required="" class="form-control" name="feedback_content" id="" cols="30" rows="10"></textarea>
-    </div>
+      <h2 class="size20px bold">Ghi chú</h2>
+      </h2><textarea required="" class="form-control" name="feedback_content" id="" cols="30" rows="10"></textarea>
+    ></div>
 
-    <p class="size20px">Thanh toán khi nhận hàng (COD),
-      Phí ship sẽ được nhận viên gọi điện để xác nhận</p>
+    <h2 class="size20px">Thanh toán khi nhận hàng (COD),
+      Phí ship sẽ được nhận viên gọi điện để xác nhận</h2>
 
     <input id="datHang" type="submit" value="Đặt Hàng"></input>
     </form>
