@@ -2,8 +2,6 @@
     position: sticky;
     top: 0; 
   
-    padding-bottom: 10px;
-  
   
   }
   a:hover {
@@ -17,7 +15,7 @@
     font-family: "Oswald", sans-serif;
     font-size: 16px;
     font-weight: 300;
-    text-transform: uppercase;
+ 
    
     position: sticky;
     top: 0; 
@@ -25,6 +23,11 @@
    
     
     background: url(https://tse2.mm.bing.net/th?id=OIP.ERdVAZEos975_yh18JCjigHaEK&pid=Api&P=0&w=302&h=170);
+  }
+  .allSanPham{
+    background-image: url(https://chupanhmonan.com/wp-content/uploads/2018/04/Bubble-Tea-Is-Actually-Pretty-Bad-For-You%E2%80%94Here%E2%80%99s-Why_102149926_stockcreations-1024x683-1024x683.jpg);
+    padding:100px 30px 100px 0;
+    padding-left: 20%;
   }
   .logoBar{
     width:50%;
@@ -155,7 +158,7 @@
    
   }
   footer{
-    font-color: white;
+    color: rgb(0, 0, 0);
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-OvbRy-aikTFaJ5G88Nl2XXM_68mkFUC1MQ&usqp=CAU);
   }
    .row {
@@ -169,10 +172,7 @@
     margin-left: 80px;
   }
   
-  .container {
-    max-width: 89%;
-  
-  }
+ 
   
   .container-fluid {
     padding-right: 15px;
@@ -251,7 +251,7 @@
     border-radius: 7px;
     box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
     max-width: 299px;
-    max-height: 450px;
+    max-height: 500px;
     display: block;
   }
   .card h3 em {
@@ -279,16 +279,164 @@
         align-items: flex-start;
         align-content: space-between;
         gap: 80px;
-        margin-left: 80px;
+        margin-left: 12%;
         border-left: 2px;
+     
       }
       .name-menu ul {
         list-style: none;  
         color: #091727;
         margin: auto;
-        text-decoration:none;
+       
         font-family: "Oswald", sans-serif;
         font-size: 25px;
         font-weight: 50;
         text-transform: uppercase;
       }
+      .all-products{
+        border-left: 4px solid #000000;
+        padding-left: 30px;
+      }
+      .myMenu{
+        text-decoration:none;
+        color:#5dabca;
+      }
+      .name-menu{
+        position: sticky;
+        top: 0; 
+        margin-top:10%;
+        padding-bottom: 10px;
+        
+      }
+      .myTraSua{
+        background-color: #95d1e9;
+        padding: 30px;
+        font-size: 30px;
+        text-align: center;
+      }
+      * {
+        font-family: "Quicksand", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .imgBackGround{
+        max-width: 100%;
+        height: auto;
+      }
+        
+  #option {
+    background: center no-repeat #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    width: 235px;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 14px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 7px;
+    -webkit-transform-origin: 80% 105%;
+    -ms-transform-origin: 80% 105%;
+    transform-origin: 80% 105%;
+    -webkit-transition: ease-out .12s all;
+    -o-transition: ease-out .12s all;
+    transition: ease-out .12s all;
+    z-index: 10000;
+    display: none
+}
+ 
+#option:before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    right: 25px;
+    left: auto;
+    display: inline-block!important;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #FFF;
+    border-left: 10px solid transparent;
+}
+ 
+#option li {
+    width: 100%;
+}
+ 
+#option li a {
+    display: inline-block;
+    padding: 8px 10px;
+}
+ 
+#option li:hover {
+    background: #eee;
+}
+ 
+#option li a i {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #189eff;
+    text-align: center;
+    border-radius: 99px;
+    color: #fff;
+    margin-right: 8px;
+}
+ 
+#support ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+#support a {
+    text-decoration: none;
+    color: #333;
+}
+ 
+#support {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 60px;
+    height: 60px;
+    z-index: 99999;
+}
+ 
+#iconChat {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #189eff;
+    cursor: pointer;
+    border-radius: 99px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+}
+ 
+#iconChat:before {
+    content: "\f1d8";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 10px;
+    left: 10px;
+    color: #189eff;
+    background: #fff;
+    border-radius: 99px;
+}
